@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#container1 {
+    display: flex;
+    background-color: #70A9A1;
+    justify-content: space-between;
+}
+
+#container2 {
+    display: flex;
+    background-color: #40798C;
+    justify-content: space-around;
+}
+
+#container3 {
+    display: flex;
+    background-color: #0B2027;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #40798C;
+}
